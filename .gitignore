@@ -1,0 +1,10 @@
+node_modules
+.idea
+.vscode
+.DS_Store
+# VuePress Cache
+**/.vuepress/.cache/
+# VuePress Temp
+**/.vuepress/.temp/
+# VuePress Output
+dist/
