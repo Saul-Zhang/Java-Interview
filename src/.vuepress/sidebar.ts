@@ -1,6 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
+  sidebar: "structure",
   "/": [
     // "",
     // "portfolio",
@@ -15,6 +16,12 @@ export default sidebar({
       text: "Java",
       icon: "book",
       prefix: "interview/java",
+      children: "structure",
+    },
+    {
+      text:"多线程",
+      icon: "book",
+      prefix: "interview/thread",
       children: "structure",
     },
     {
